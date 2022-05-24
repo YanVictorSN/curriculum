@@ -1,0 +1,19 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+	<title>Novo Projeto</title>
+	<defs>
+		<image  width="512" height="512" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIAAQMAAADOtka5AAAAAXNSR0IB2cksfwAAAANQTFRFAAAAp3o92gAAAAF0Uk5TAEDm2GYAAAA2SURBVHic7cEBAQAAAIIg/69uSEABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHwbggAAAdJ4ifAAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	.s0 {
+		fill: #000000 
+	} 
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+	<path id="Forma 4" class="s0" d="m160 258.4v-5l123 1v5z"/>
+	<path id="Forma 5" class="s0" d="m292.4 256.1l-2.8-4.2 141-98 2.8 4.1z"/>
+	<path id="Forma 6" class="s0" d="m290.4 259.9l3.2-3.9 132 106-3.2 3.9z"/>
+	<path id="Forma 7" class="s0" d="m384.5 321.9h-5v-122h5z"/>
+	<path id="Forma 1" class="s0" d="m162.5 359.9h-5l-1-209h5z"/>
+	<path id="Forma 2" class="s0" d="m162.8 154.1l4.4-2.4 115 206-4.4 2.4z"/>
+	<path id="Forma 3" class="s0" d="m288.5 360.9h-5l-1-210h5z"/>
+</svg>
