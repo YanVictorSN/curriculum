@@ -8,6 +8,7 @@ body {
     width: 100vw;
     height: 475vh;
     background-color:#c9d1d3;
+    overflow-x: hidden;
 }
 header {
     width: 100vw;
@@ -61,7 +62,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    flex-direction: column;box-shadow: 1px 1px 1px #3b3737;
+    flex-direction: column;    box-shadow: 10px 10px 1rem rgb(0 0 0 / 51%);
 }
 #mainimg {
     width: 15vw;
@@ -70,22 +71,34 @@ main {
     border-radius: 8vw;
 }
 #name {
-    font-size: 1.6vw;
+    font-size: 1.8vw;
     color: #3b3737;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
 }
+.functions {
+    font-size: 1.3vw;
+    padding: 0.3vh;
+    color: #3b3737;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
 .socialmedia {
     display: flex;
-    list-style: none;
+    list-style: none
 }
 .socialmediaimg {
-  width: 3vw;  
-  transition: 0.8 ease-in-out;
+    padding:0.2vw ;
+    width: 3vw;  
+    transition: 0.8 ease-in-out;
+    border-radius: 0.3vw;
+    transition: 1s ease-in-out;
 }
 .socialmediaimg:hover {
     cursor: pointer;
+    transition: 1s ease-in-out;
     transform: scale(1.1);
+    box-shadow: 5px 5px 1rem rgba(90, 90, 90, 0.51);
 }
 /* Right Side Main */
 #rsideexhibit {
@@ -105,7 +118,7 @@ main {
     justify-content:space-evenly;
     flex-direction: column;
     background-color:#9dd3df;
-    box-shadow: 1px 1px 1px #3b3737;
+    box-shadow: 10px 10px 1rem rgb(0 0 0 / 51%);
     border-radius: 1vw;
 }
 #presentacion {
@@ -159,7 +172,7 @@ main {
 }
 .skilldivs{
     background-color: #9dd3df;
-    box-shadow: 1px 1px 1px #3b3737;
+    box-shadow: 10px 10px 1rem rgb(0 0 0 / 51%);
     display: flex;
     padding: 1vw;
     align-items: center;
@@ -182,6 +195,8 @@ main {
     width: 100vw;
     height: 180vh;
     flex-direction: column;
+    padding: 1vw;
+    gap: 4vw;
 }
 .textprojects {
     display: flex;
@@ -190,32 +205,37 @@ main {
     font-size: 2vw;
     margin-left: 3vw; 
     background-color: #9dd3df;
-    box-shadow: 1px 1px 1px #3b3737;
+    box-shadow: 10px 10px 1rem rgb(0 0 0 / 51%);
     border-radius: 1vw;
     font-family: 'Roboto', sans-serif;
     color: #3b3737;
     opacity: 0.9;
-
 }
 .programing {
-    width: 100vw;
+    width: 48vw;
+    height: 70vh;
     display: flex;
     justify-content: center;
+    background-color: #9dd3df;
+    border-radius: 2vw;
+    box-shadow: 10px 10px 1rem rgb(0 0 0 / 51%);
 }
 #projectsweb {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: row;
     width: 87vw;
     border-radius: 2vw;
-    
+    gap: 2vw;
+    padding-left: 9vw;
 }
 .projectwebimg {
     border-radius: 2vw;
     width: 45vw;
+    height: 45vh;
     margin-top: 3vw;
     transition: 0.8s ease-in-out;
-    box-shadow: 3px 3px 3px #9dd3df;
-    
+    box-shadow: 10px 10px 1rem rgb(0 0 0 / 51%);
 }
 .projectwebimg:hover {
     cursor: pointer;
@@ -234,7 +254,7 @@ main {
     height: 70vh;
     padding: 2vw;
     background-color: #9dd3df;
-    box-shadow: 1px 1px 1px #3b3737;
+    box-shadow: 10px 10px 1rem rgb(0 0 0 / 51%);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -261,5 +281,5 @@ main {
     border-radius: 2vw;
     background-color: #e7ece0;
     text-decoration-color: #3b3737;
-    font-family:'Roboto', sans-serif; ;
+    font-family:'Roboto', sans-serif;
 }
